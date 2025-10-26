@@ -1,8 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Titan+One&display=swap" rel="stylesheet">
+    <style>
+       body {
+    font-family: "Oswald", sans-serif;
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 40px;
+}
+
+h1 {
+    color: #C4296C;
+    background-color: #71C4B9;
+    font-weight: 400;
+    text-decoration: underline;
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+h2 {
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    text-decoration: underline;
+    margin-top: 30px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input {
+    width: 60%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    background-color: #C4296C;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+#answer {
+    margin-top: 15px;
+    font-size: 18px;
+    color: #333;
+    min-height: 20px;
+}
+
+       
+    </style>
 </head>
 <body>
     <h1>Umer-Chat-Bot</h1>
@@ -13,7 +73,9 @@
         <button type="submit">Search</button>
     </form>
     <h2>Answer :-</h2>
-    <div id="answer"></div>
+    <div id="answer"></div><br>
+    
+
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 
     <script src="./index.js"></script>
